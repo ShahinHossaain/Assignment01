@@ -4,11 +4,14 @@
 }
 .header-container{
         background-image: url('images/banner/banner2.png');
+        /* position: absolute; */
         width: 100%;
         height: 810px;
         display: flex;
         justify-content: right;
         align-items: center;
+        margin-bottom: 130px;
+        background-repeat: no-repeat;
 }
 .header-text{
     padding-right: 230px;
@@ -20,7 +23,7 @@
     margin-bottom: 24px;
     font-family: 'Work Sans', sans-serif;
 }
-.header-text p{
+p{
     font-weight: 400;
     margin-bottom: 32px;
     font-size: 16px;
@@ -37,3 +40,107 @@
     border-radius: 5px;
     background: #FD6E0A;
 }
+/* first section start  */
+.failure-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 130px;
+}
+.failure-container img{
+    background-color: #FFFFFF;
+}
+.first-section-description{
+    width: 416px;
+    height: 400px;
+    justify-content: right;
+    
+}
+.first-section-description h1{
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 24px;
+    font-family: 'Work Sans', sans-serif;
+}
+.first-section-description ul{
+    list-style: circle;
+}
+/* plan section start */
+.plan-section{
+    margin: 0 130px;
+
+}
+.plan-section > h1{
+    font-style: normal;
+    font-weight:700;
+    font-size: 50px;
+    margin-bottom: 40px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+.plan-container{
+    display: flex;
+    gap: 24px;
+    /* margin: 0 130px; */
+}
+.plans{
+    margin: auto;
+    font-style: normal;
+    font-weight:700;
+    font-size: 17px;
+    /* margin-bottom: 24px; */
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+/* gradient section  */
+.gradient-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-image: linear-gradient(to left, rgba(245, 246, 252, 0.52), rgba(255, 78, 8, 0.55) 70%),
+    url('images/watch.png');
+    /* background-image: linear-gradient(url('images/gradient2.png'),url('images/watch.png') ); */
+    /* background-image: linear-gradient(red,blue); */
+}
+.gradient-container h1{
+    margin: auto;
+    font-style: normal;
+    font-weight:700;
+    font-size: 40px;
+    color: white;
+    /* margin-bottom: 24px; */
+    font-family: 'Work Sans', sans-serif;
+}
+.g-div{
+    padding-left: 65px;
+}
+.g-div button{
+    width: 150px;
+    height: 64px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 27px 22px;
+    border-radius: 5px;
+    background: #ff0606;
+    color: white;
+    margin-top: 25px;
+}
+footer{
+    background-color: #151414;
+    color: white;
+    margin: 130px 0 130px 0;
+}
+.footer-container{
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-left{
+    width: 32%;
+}
+
+
