@@ -51,11 +51,17 @@ p{
     align-items: center;
     margin-bottom: 130px;
 }
-.failure-container img{
+.failure-container > img{
     background-color: #FFFFFF;
     background-image: url('images/header_bg.png');
     height: 600px;
 }
+/* #icon-ul{
+    list-style: none;
+}
+#icon-ul i{
+    padding: 0 50px 0 0px;
+} */
 .first-section-description{
     width: 416px;
     height: 400px;
@@ -187,5 +193,27 @@ input{
 .all-middle-section{
     padding: 0px 150px;
 }
+.list{
+   display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+.list p{
+    margin: 0;
+
+}
+.list img{
+    padding: 4px 10px 4px 4px;
+}
+/* .list i{
+    padding: 4px 10px 4px 4px;
+    color: green;
+} */
+.fa-solid{
+    padding: 4px 10px 4px 4px;
+    color: green;
+    font-size: 15px;
+}
+
 
 
